@@ -1,0 +1,17 @@
+Approach - 1:
+
+1. Divide dataset into training and validation dataset
+2. Feed it to Resnet50, VGG16 and check performance.
+3. Dynamic Data Augmnetation performed.
+4. Training accuracy : 63% 
+   Validation accuracy : 65%
+
+Approach - 2:
+1. Change data preprocessing strategy
+2. Add more data from different data source
+3. Datasets used: 
+    3.1 https://www.kaggle.com/tawsifurrahman/covid19-radiography-database - Can be directly used
+    3.2 https://github.com/ieee8023/covid-chestxray-dataset - Needs to be preprocessed
+4. Build a custom CNN architechture and check performance.
+5. Training accuracy :  
+   Validation accuracy : 
